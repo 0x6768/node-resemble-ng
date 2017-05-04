@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/ddo/node-resemble",
   "dependencies": {
-    "canvas": "^1.5.0",
+    "canvas": "^1.6.5",
     "image-type": "^2.1.0",
-    "resemblejs": "^2.2.2"
+    "resemblejs": "^2.2.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
