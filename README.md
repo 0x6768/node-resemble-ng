@@ -6,7 +6,7 @@ Refactored node port of [Resemble.js](https://github.com/Huddle/Resemble.js), su
 ## installation
 
 ```bash
-$ npm i --save https://github.com/guyhughes/node-resemble/archive/3.0.0.tar.gz
+$ npm i --save node-resemble-ng
 ```
 
 ## note
