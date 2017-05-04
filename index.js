@@ -31,16 +31,17 @@ function overrideImage() {
     return Image;
 }
 
-module.exports = function() {
-    if (typeof window === "undefined") {
-        global.window = overrideWindow()
-    }
-    if (typeof FileReader === "undefined") {
-        global.FileReader = overrideFileReader()
-    }
-    if (typeof Image === "undefined") {
-        global.Image = overrideImage()
-    }
-    const resemblejs = require('resemblejs');
-    return resemblejs.apply(this, arguments);
-};
+module.exports = (function() {
+  if (typeof window === "undefined") {
+    global.window = overrideWindow()
+  }
+  if (typeof FileReader === "undefined") {
+    global.FileReader = overrideFileReader()
+  }
+  if (typeof Image === "undefined") {
+    global.Image = overrideImage()
+  }
+  const resemblejs = require('resemblejs');
+  return resemblejs;
+
+})();
