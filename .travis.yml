@@ -1,8 +1,10 @@
+dist: trusty
 language: node_js
+sudo: required
 node_js:
   - 5
   - 6
   - 7
 before_install:
-- sudo apt-get -qq update
-- sudo apt-get install -y libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++
+- apt-get -qq update
+- apt-get install -y libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++
