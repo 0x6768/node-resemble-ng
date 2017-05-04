@@ -1,5 +1,5 @@
-node-resemble 
-=============
+node-resemble-ng  [![Build Status](https://travis-ci.org/guyhughes/node-resemble-ng.svg?branch=master)](https://travis-ci.org/guyhughes/node-resemble-ng)
+==================
 
 Refactored node port of [Resemble.js](https://github.com/Huddle/Resemble.js), such that resemble.outputSettings is exposed.
 
